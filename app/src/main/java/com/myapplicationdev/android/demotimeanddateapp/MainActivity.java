@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvShow;
     DatePicker dp;
     TimePicker tp;
-    Button btnChange;
+   
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         tvShow = findViewById(R.id.textViewshow);
         dp = findViewById(R.id.datePicker);
         tp = findViewById(R.id.timePicker);
-        btnChange = findViewById(R.id.btnReset);
+
 
         displayTime.setOnClickListener(new View.OnClickListener() {
             @Override
